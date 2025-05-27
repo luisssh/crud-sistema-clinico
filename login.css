@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Noto+Serif+Ahom&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    box-sizing: border-box; 
+} 
+
+h1 {
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px; 
+}
+
+#login {
+    background-color: white;
+    width: 100%;
+    max-width: 800px; 
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#logar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    font-family: "Playfair Display", serif;
+}
+
+input {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    ;
+}
+
+button {
+    width: 100%;
+    max-width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:  #0d6efd;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    ;
+}
+
+button:hover {
+    background-color: #F23D3D;
+}
+
+#cadastrarbotao {
+    margin-top: 2px;
+    margin-left: 19px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    width: 203px;
+    height: 45px;    
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azulPrincipal);
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+
+}
+
+#banner {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner h1, #banner h3 {
+    color: white;
+}
+
+#banner img {
+    max-width: 70%;
+    height: auto;
+}
